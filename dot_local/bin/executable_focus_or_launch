@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+window_token="$1"
+command_string="${@:2}"
+
+if [[ -z $command_string ]]; then 
+  command_string=$1
+fi
+
+
+window_id=$(wmctrl -lpx | awk -v window_token="$window_token" 'index($4, window_token) {print $1}')
+#echo $window_id
+if [[ -n $window_id ]]; then
+  wmctrl -ia $window_id
+else
+  "$command_string"
+fi
