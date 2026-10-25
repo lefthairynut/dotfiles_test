@@ -1,6 +1,6 @@
 [Desktop Entry]
 Exec=playerctl position 5+
-Name=gholamhosein
+Name=playerctl position 5+
 NoDisplay=true
 StartupNotify=false
 Type=Application

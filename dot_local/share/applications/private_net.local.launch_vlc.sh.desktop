@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/so/.local/script/kde_shortcuts/launch_vlc.sh
+Name=launch_vlc
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

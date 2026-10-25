@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/so/.local/script/kde_shortcuts/launch_burpsuite.sh
+Name=launch_burpsuite
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

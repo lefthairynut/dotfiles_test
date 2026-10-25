@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Burp Browser
+Exec=true
+Icon=/home/so/.local/share/burp/browser-icons/burp-browser.svg
+StartupWMClass=burp-browser
+NoDisplay=true
