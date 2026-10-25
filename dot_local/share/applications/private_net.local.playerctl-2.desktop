@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=playerctl position 5-
+Name=playerctl position 5-
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

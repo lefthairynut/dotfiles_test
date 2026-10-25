@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=playerctl position 5+
+Name=gholamhosein
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

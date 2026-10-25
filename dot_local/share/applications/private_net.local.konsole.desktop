@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=konsole -e tmux new-session fish
+Name=konsole -e tmux new-session fish
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
