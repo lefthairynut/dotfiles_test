@@ -1,0 +1,26 @@
+[General]
+confirmLogout=false
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10e169786f000179271179200000013170001
+clientId2=10e169786f000179271181400000013170003
+clientId3=10e169786f000179271188200000013170004
+count=3
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_10e169786f000179271181400000013170003_1792711892_789690
+discardCommand3[$e]=rm,$HOME/.config/session/systemsettings_10e169786f000179271188200000013170004_1792711892_785637
+program1=/nix/store/5dv6lyxdnscspjllrzb7ik69176zi4f8-discover-6.6.6/libexec/DiscoverNotifier
+program2=/run/current-system/sw/bin/konsole
+program3=/run/current-system/sw/bin/systemsettings
+restartCommand1=/nix/store/5dv6lyxdnscspjllrzb7ik69176zi4f8-discover-6.6.6/libexec/DiscoverNotifier,-session,10e169786f000179271179200000013170001_1792711892_785356,-name,DiscoverNotifier
+restartCommand2=/run/current-system/sw/bin/konsole,-session,10e169786f000179271181400000013170003_1792711892_789690,-name,konsole
+restartCommand3=/run/current-system/sw/bin/systemsettings,-session,10e169786f000179271188200000013170004_1792711892_785637,-name,systemsettings
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=so
+userId2=so
+userId3=so
